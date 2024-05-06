@@ -15,9 +15,9 @@ class Router
 
   def print_actions
     puts "\n---"
-    puts 'What do you want to do?'
-    puts '1 - Add a new product'
-    puts '2 - View cart'
+    puts 'What would you like to do ?'
+    puts '1 - Add a product to the cart'
+    puts '2 - See cart status'
     puts '---'
   end
 
@@ -27,7 +27,7 @@ class Router
     when 2 then @controller.show_cash_machine_overview
 
     else
-      puts 'Please type 1 or 2 :)'
+      puts 'Please type 1 or 2'
     end
   end
 end
