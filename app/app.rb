@@ -1,6 +1,5 @@
 require_relative 'cash_machine'
 require_relative 'products_repository'
-require_relative 'cash_machine_repository'
 require_relative 'cash_machine_controller'
 require_relative 'router'
 
